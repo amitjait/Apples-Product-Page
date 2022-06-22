@@ -1,0 +1,120 @@
+.product_container{
+    margin: 0px auto;
+    width: fit-content;
+    display: flex;
+    margin: 6% 0% 0% 13%;
+
+
+}
+.background{
+    background-color: #90ee90;
+}
+.product_details{
+    width: 600px;
+    background-color: white;
+    height: 480px;
+    display: flex;
+    padding-top: 40px;
+    border-radius: 5px;
+   
+}
+.product_image{
+    width: 270px;
+    background-color: white;
+    height: 420px;
+    position: relative;
+    left: 27%;
+    bottom: 10%;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 2px 2px 25px -5px grey;
+}
+.detail_first{
+    flex: 0.45;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+}
+.detail_second{
+    flex: 0.55;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom-right-radius: 5px;
+}
+.code_text{
+    font-size: 12px;
+    opacity: 0.3;
+}
+.cost_text
+{
+    color: red;
+    font-size: 20px;
+}
+.price_text{
+    font-size: 60px;
+    padding-left: 20px;
+}
+.image_container{
+    padding-left: 50px;
+    margin-bottom: -20px;
+}
+.color_image:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+li{
+    font-size: 13px;
+}
+.add_to_cart{
+    background-color: rgb(199, 6, 6);
+    color: white;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px -5px grey;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.add_to_cart:hover{
+    cursor: pointer;
+}
+#ci{
+    width: 40px;
+    padding: 2px;
+}
+.image{
+    border-radius: 5px 5px 0px 0px;
+    flex: 0.98;
+    background-image: radial-gradient(white 40%,#b1fe31 80%, #b1fe31 );
+}
+.upper_image{
+    position: absolute;
+    top: 190px;
+    left: 400px;
+    width: 250px;
+}
+.box_images{
+    display: flex;
+    margin: 0px auto;
+    padding: 20px 20px 20px 30px;
+}
+.box-img{
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px 0px 5px;
+    border: 1px solid rgb(238, 212, 212);
+}
+.heart_image{
+    position: absolute;
+    top: 155px;
+    left: 680px; 
+}
+.share_image{
+    position: absolute;
+    top: 155px;
+    left: 450px; 
+}
