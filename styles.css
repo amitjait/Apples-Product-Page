@@ -89,12 +89,12 @@ li{
 .image{
     border-radius: 5px 5px 0px 0px;
     flex: 0.98;
-    background-image: radial-gradient(white 40%,#b1fe31 80%, #b1fe31 );
+    background-image: radial-gradient(white 35%,#b1fe31 80%, #b1fe31 );
 }
 .upper_image{
     position: absolute;
-    top: 190px;
-    left: 400px;
+    top: 180px;
+    left: 390px;
     width: 250px;
 }
 .box_images{
